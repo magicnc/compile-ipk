@@ -3,7 +3,7 @@
 # 获取插件名称和版本
 
 # 读取Makefile文件
-MAKEFILE="./luci-app-modem/Makefile"
+MAKEFILE="./Makefile"
 
 # 提取NAME, PKG_NAME和PKG_VERSION
 NAME=$(grep -E '^NAME:=' $MAKEFILE | cut -d '=' -f 2)
